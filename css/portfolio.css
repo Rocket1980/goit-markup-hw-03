@@ -1,0 +1,143 @@
+:root {
+  --theme-color: #2196f3;
+  --text-primary: #212121;
+  --text-secondary: #757575;
+
+  --primary-font: 'Raleway';
+  --secondary-font: 'Roboto';
+}
+
+body {
+  background-color: #e5e5e5;
+  font-family: var(--secondary-font);
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+address {
+  font-style: normal;
+}
+
+/* ===== header ===== */
+
+.header-logo {
+  font-family: raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  color: var(--text-primary);
+}
+span {
+  color: #2196f3;
+}
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--theme-color);
+}
+.nav-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--text-primary);
+}
+.active-page {
+  color: var(--theme-color);
+}
+.header-connection-mailto {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--text-secondary);
+}
+.header-connection-tel {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--text-secondary);
+}
+.header-connection-mailto:hover,
+.header-connection-mailto:focus {
+  color: var(--theme-color);
+}
+.header-connection-tel:hover,
+.header-connection-tel:focus {
+  color: var(--theme-color);
+}
+/* ===== main ===== */
+
+.button-link {
+  font-family: var(--secondary-font);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--text-primary);
+  background: #f5f4fa;
+}
+.button-link:hover,
+.button-link:focus {
+  background-color: var(--theme-color);
+  color: #ffffff;
+}
+.images-projects {
+  width: 370px;
+  height: 294px;
+}
+.heading-projects {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--text-primary);
+}
+.text-projects {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.03em;
+  color: var(--text-secondary);
+}
+/* ===== footer ===== */
+
+.footer-logo {
+  font-family: raleway;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+.footer-address {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+.footer-mailto {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer-tel {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
