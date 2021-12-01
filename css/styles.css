@@ -26,6 +26,10 @@ address {
 
 /* ===== header ===== */
 
+.header {
+  padding: 25px 0;
+}
+
 .logo {
   font-family: raleway;
   font-weight: bold;
@@ -81,6 +85,15 @@ span {
 }
 
 /* ===== main ===== */
+
+.cap {
+  background-color: #2f303a;
+}
+
+.cap-container {
+  padding: 200px 0;
+  width: 1200px;
+}
 
 .cap-heading {
   font-weight: 900;
