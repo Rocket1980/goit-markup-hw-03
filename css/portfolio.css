@@ -26,6 +26,12 @@ address {
 
 /* ===== header ===== */
 
+.container {
+  width: 1200px;
+  margin: 0 200px;
+  padding: 0 15px;
+}
+
 .header-logo {
   font-family: raleway;
   font-weight: 700;
