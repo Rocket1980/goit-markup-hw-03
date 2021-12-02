@@ -12,6 +12,13 @@ body {
   font-family: var(--secondary-font);
 }
 
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+}
+
 a {
   text-decoration: none;
 }
@@ -26,9 +33,23 @@ address {
 
 /* ===== header ===== */
 
-.header {
+.page-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
   padding: 25px 0;
 }
+
+/* .meny-nav > .nav-link:not(:last-child) {
+  margin: 10px;
+} */
+
+/* .meny-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+} */
 
 .logo {
   font-family: raleway;
@@ -88,6 +109,7 @@ span {
 
 .cap {
   background-color: #2f303a;
+  margin-bottom: 94px;
 }
 
 .cap-container {
@@ -131,6 +153,19 @@ span {
   padding: 0 15px;
 }
 
+.peculiarity {
+  margin-bottom: 94px;
+}
+
+.peculiarity-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+  margin: auto 0;
+  padding: 0 10px;
+}
+
 .peculiarity-heading {
   font-weight: 700;
   font-size: 14px;
@@ -140,6 +175,8 @@ span {
   color: var(--text-primary);
 }
 .peculiarity-text {
+  margin-right: 30px;
+
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
@@ -149,6 +186,16 @@ span {
 
 /* ===== classes ===== */
 
+.image {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 0 10px;
+  margin-top: 50px;
+  margin-right: 30px;
+  margin-bottom: 94px;
+}
+
 .classes-heading {
   font-weight: bold;
   font-size: 36px;
@@ -157,12 +204,33 @@ span {
   letter-spacing: 0.03em;
   color: var(--text-primary);
 }
+
+.classes-image-list {
+  margin-right: 30px;
+}
+
 .classes-image {
   width: 370px;
   height: 294px;
 }
 
 /* ===== team ===== */
+
+.team-box {
+  margin-bottom: 94px;
+  background-color: #f5f4fa;
+}
+
+.team-group {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 50px;
+}
+
+.team-group-bg {
+  margin-right: 30px;
+}
 
 .team-container {
   width: 1200px;
@@ -202,6 +270,25 @@ span {
 }
 
 /* ===== footer ===== */
+
+.footer {
+  background-color: #2f303a;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 1600px;
+  height: 252px;
+}
+
+.footer-container {
+  padding-top: 60px;
+  padding-left: 40px;
+}
+
+.footer-box-connectio {
+  display: flex;
+  flex-direction: column;
+}
 
 .footer-logo {
   font-family: raleway;
