@@ -18,6 +18,7 @@ a {
 
 ul {
   list-style: none;
+  padding-inline-start: 0px;
 }
 
 address {
@@ -27,12 +28,43 @@ address {
 /* ===== header ===== */
 
 .container {
-  width: 1200px;
-  margin: 0 200px;
-  padding: 0 15px;
+  width: 1170px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
+.header-nav {
+  display: flex;
+}
+
+.header-nav-link {
+  display: flex;
+  align-items: center;
+  margin-left: 93px;
+}
+
+.header-link + .header-link {
+  margin-left: 50px;
+}
+
+.connection-link {
+  display: flex;
+}
+
+.header-connection {
+  margin-left: auto;
 }
 
 .header-logo {
+  padding-top: 24px;
+  padding-bottom: 24px;
+
   font-family: raleway;
   font-weight: 700;
   font-size: 26px;
@@ -81,7 +113,24 @@ span {
 }
 /* ===== main ===== */
 
+.main-button {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.button-ul {
+  display: flex;
+  align-items: center;
+  margin-bottom: 34px;
+}
+
+.button-li {
+  padding: 6px 15px;
+}
+
 .button-link {
+  border-radius: 10px;
+
   font-family: var(--secondary-font);
   font-weight: 500;
   font-size: 16px;
@@ -97,10 +146,18 @@ span {
   background-color: var(--theme-color);
   color: #ffffff;
 }
+
+.list-projects-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
 .images-projects {
   width: 370px;
   height: 294px;
 }
+
 .heading-projects {
   font-weight: 700;
   font-size: 18px;
@@ -117,15 +174,18 @@ span {
 }
 /* ===== footer ===== */
 
-.footer-logo {
-  font-family: raleway;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
-  color: #ffffff;
+.footer {
+  background-color: #2f303a;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 }
+
+.footer-container {
+  padding-top: 60px;
+  padding-left: 40px;
+}
+
 .footer-address {
   font-weight: 400;
   font-size: 14px;

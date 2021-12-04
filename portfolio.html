@@ -15,18 +15,30 @@
 <body>
     <!-- Верхняя линия -->
     <header class="header">
-        <div class="container">
+        <div class="container header-container">
             <nav class="header-nav">
                 <a class="header-logo" href="WebStudio"><span>Web</span>Studio</a>
                 <ul class="header-nav-link">
-                    <li><a class="nav-link" href="./index.html">Студия</a></li>
-                    <li><a class="nav-link active-page" href="./portfolio.html">Портфолио</a></li>
-                    <li><a class="nav-link" href="Контакты">Контакты</a></li>
+                    <li class="header-link">
+                        <a class="nav-link" href="./index.html">Студия</a>
+                    </li>
+                    <li class="header-link">
+                        <a class="nav-link active-page" href="./portfolio.html">Портфолио</a>
+                    </li>
+                    <li class="header-link">
+                        <a class="nav-link" href="Контакты">Контакты</a>
+                    </li>
                 </ul>
             </nav>
             <div class="header-connection">
-                <a class="header-connection-mailto" href="mailto:info@devstudio.com">info@devstudio.com</a>
-                <a class="header-connection-tel" href="tel:+38-096-111-11-11">+38 096 111 11 11</a>
+                <ul class="connection-link">
+                    <li class="header-link">
+                        <a class="header-connection-mailto" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                    </li>
+                    <li class="header-link">
+                        <a class="header-connection-tel" href="tel:+38-096-111-11-11">+38 096 111 11 11</a>
+                    </li>
+                </ul>
             </div>
         </div>
     </header>
@@ -39,25 +51,25 @@
         <section class="container">
             <!-- Фильтр -->
             <div class="main-button">
-                <ul>
-                    <li>
+                <ul class="button-ul">
+                    <li class="button-li">
                         <button class="button-link" type="button">Все</button>
                     </li>
-                    <li>
+                    <li class="button-li">
                         <button class="button-link" type="button">Веб-сайт</button>
                     </li>
-                    <li>
+                    <li class="button-li">
                         <button class="button-link" type="button">Приложения</button>
                     </li>
-                    <li>
+                    <li class="button-li">
                         <button class="button-link" type="button">Дизайн</button>
                     </li>
-                    <li>
+                    <li class="button-li">
                         <button class="button-link" type="button">Маркетинг</button>
                     </li>
                 </ul>
             </div>
-            <div>
+            <div class="main-img">
                 <ul class="list-projects-box">
                     <li class="list-projects">
                         <img class="images-projects" src="./images/portfolio1.jpg " alt="Картинка" width="370">
@@ -113,7 +125,7 @@
     
     <!-- Подвал -->
     <footer class="footer">
-        <div class="container">
+        <div class="container footer-container">
             <a class="footer-logo" href="WebStudio"><span>Web</span>Studio</a>
             <address class="footer-address">г. Киев, пр-т Леси Украинки, 26</address>
             <ul class="footer-list-box">

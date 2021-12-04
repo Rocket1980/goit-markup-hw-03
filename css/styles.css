@@ -311,8 +311,6 @@ span {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  width: 1600px;
-  height: 252px;
 }
 
 .footer-container {
@@ -328,13 +326,12 @@ span {
 .footer-logo {
   font-family: raleway;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: #ffffff;
 }
-
 .footer-address {
   font-weight: 400;
   font-size: 14px;
@@ -342,7 +339,6 @@ span {
   letter-spacing: 0.03em;
   color: #ffffff;
 }
-
 .footer-mailto {
   font-weight: 400;
   font-size: 14px;
