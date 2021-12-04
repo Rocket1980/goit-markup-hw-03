@@ -47,6 +47,11 @@ address {
 .header-container {
   display: flex;
   align-items: center;
+  justify-content: flex-start;
+}
+
+.header-nav {
+  display: flex;
 }
 
 .meny-nav {
@@ -55,10 +60,6 @@ address {
 
 .meny-nav-link + .meny-nav-link {
   margin-left: 50px;
-}
-
-.meny-nav-link:last-child {
-  margin-right: 0;
 }
 
 .logo {
