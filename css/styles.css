@@ -37,53 +37,42 @@ address {
 
 /* ===== header ===== */
 
-.header-box {
+.container {
+  width: 1170px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.header-container {
   display: flex;
   align-items: center;
-  height: 31px;
-  width: 100%;
-  padding: 24px 215px;
 }
+
 .meny-nav {
   display: flex;
 }
 
-.meny-nav-link {
-  margin-right: 50px;
+.meny-nav-link + .meny-nav-link {
+  margin-left: 50px;
+}
+
+.meny-nav-link:last-child {
+  margin-right: 0;
 }
 
 .logo {
-}
-/* .page-header {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: flex-start;
-  padding: 25px 0;
-} */
-
-/* .meny-nav > .nav-link:not(:last-child) {
-  margin: 10px;
-} */
-
-/* .meny-nav {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-} */
-
-/* .logo {
   font-family: raleway;
   font-weight: bold;
   font-size: 26px;
   line-height: 1.2;
   letter-spacing: 0.03em;
   color: var(--text-primary);
-} */
+}
 
-/* span {
+span {
   color: #2196f3;
-} */
+}
 
 .nav-link:hover,
 .nav-link:focus {
@@ -91,6 +80,10 @@ address {
 }
 
 .nav-link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -100,7 +93,16 @@ address {
 .active-page {
   color: var(--theme-color);
 }
+
+.contacts-nav {
+  display: flex;
+}
+
 .connection-mailto {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -109,6 +111,10 @@ address {
 }
 
 .connection-tel {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -166,12 +172,6 @@ address {
   text-align: center;
   letter-spacing: 0.06em;
   color: #ffffff;
-}
-
-.container {
-  width: 1200px;
-  margin: 0 200px;
-  padding: 0 15px;
 }
 
 .peculiarity {
