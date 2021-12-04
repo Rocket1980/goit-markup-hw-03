@@ -48,7 +48,6 @@ address {
 .header-container {
   display: flex;
   align-items: center;
-  justify-content: space-around;
 }
 
 .header-nav {
@@ -91,10 +90,6 @@ span {
 }
 
 .nav-link {
-  /* display: block;
-  padding-top: 32px;
-  padding-bottom: 32px; */
-
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -316,11 +311,6 @@ span {
 .footer-container {
   padding-top: 60px;
   padding-left: 40px;
-}
-
-.footer-box-connectio {
-  display: flex;
-  flex-direction: column;
 }
 
 .footer-logo {
