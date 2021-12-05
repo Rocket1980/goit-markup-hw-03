@@ -8,7 +8,6 @@
 }
 
 body {
-  background-color: #e5e5e5;
   font-family: var(--secondary-font);
 }
 
@@ -25,7 +24,7 @@ address {
   font-style: normal;
 }
 
-/* ===== header ===== */
+/* ========== header ========== */
 
 .container {
   width: 1170px;
@@ -111,17 +110,23 @@ span {
 .header-connection-tel:focus {
   color: var(--theme-color);
 }
-/* ===== main ===== */
+/* ========== main ========== */
 
 .main-button {
   display: flex;
   justify-content: space-evenly;
+  padding-bottom: 34px;
+}
+
+.main-container {
+  padding-top: 47px;
+  padding-bottom: 94px;
 }
 
 .button-ul {
   display: flex;
   align-items: center;
-  margin-bottom: 34px;
+  margin: 0;
 }
 
 .button-li {
@@ -141,6 +146,7 @@ span {
   color: var(--text-primary);
   background: #f5f4fa;
 }
+
 .button-link:hover,
 .button-link:focus {
   background-color: var(--theme-color);
@@ -151,6 +157,11 @@ span {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  margin: 0;
+}
+
+.list-projects {
+  padding-bottom: 30px;
 }
 
 .images-projects {
@@ -165,6 +176,7 @@ span {
   letter-spacing: 0.06em;
   color: var(--text-primary);
 }
+
 .text-projects {
   font-weight: 400;
   font-size: 16px;
@@ -172,18 +184,22 @@ span {
   letter-spacing: 0.03em;
   color: var(--text-secondary);
 }
-/* ===== footer ===== */
+
+/* ========== footer ========== */
 
 .footer {
   background-color: #2f303a;
-  display: flex;
+  width: 1600px;
+  height: 252px;
+  margin: 0 auto;
+  /* display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: flex-start; */
 }
 
 .footer-container {
   padding-top: 60px;
-  padding-left: 40px;
+  padding-bottom: 60px;
 }
 
 .footer-logo {
