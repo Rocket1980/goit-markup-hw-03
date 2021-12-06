@@ -142,9 +142,9 @@ span {
 
 .cap {
   background-color: #2f303a;
-  width: 1600px;
+
   height: 600px;
-  padding: 200px 452px;
+  padding: 200px 0;
   margin: 0 auto;
 }
 
@@ -154,6 +154,8 @@ span {
 } */
 
 .cap-heading {
+  padding-bottom: 30px;
+
   font-weight: 900;
   font-size: 44px;
   line-height: 1.37;
@@ -164,7 +166,7 @@ span {
 }
 
 .cap-button {
-  border-radius: 10px;
+  border-radius: 4px;
   padding-top: 10px;
   padding-right: 32px;
   padding-bottom: 10px;
@@ -184,21 +186,16 @@ span {
 }
 
 .peculiarity {
-  /* display: flex; */
-  /* justify-content: space-between;
-  width: 1170px;
-  margin-bottom: 94px;
-  padding-left: 15px;
-  padding-right: 15px; */
+  width: 1200px;
+  margin: 0 auto;
+  padding-top: 94px;
+  padding-bottom: 47px;
 }
 
 .peculiarity-box {
   display: flex;
   justify-content: space-between;
-  padding-top: 94px;
-  padding-bottom: 47px;
   margin: 0;
-  width: 1170px;
 }
 
 .peculiarity-box + .peculiarity-text {
@@ -233,7 +230,7 @@ span {
 /* ========== classes ========== */
 
 .classes-box {
-  width: 1170px;
+  width: 1200px;
   padding-top: 47px;
   padding-bottom: 84px;
 }
@@ -253,7 +250,7 @@ span {
 }
 
 .classes-heading {
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 
   font-weight: bold;
   font-size: 36px;
@@ -271,12 +268,12 @@ span {
 /* ========== team ========== */
 
 .team-box {
-  width: 1170px;
+  width: 1200px;
   padding-top: 102px;
   padding-bottom: 86px;
 }
 
-.team-group {
+.team-group-image .team-group {
   display: flex;
   justify-content: center;
   margin: 0;
@@ -284,6 +281,13 @@ span {
 
 .team-group-bg {
   margin-left: 30px;
+  margin-bottom: 30px;
+}
+
+.team-group-link .team-group {
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
 }
 
 .team-group-bg:first-child {
@@ -296,7 +300,7 @@ span {
 }
 
 .team-box-heading {
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 
   font-weight: 700;
   font-size: 36px;
@@ -330,17 +334,9 @@ span {
 
 .footer {
   background-color: #2f303a;
-  width: 1600px;
   height: 252px;
+  padding: 60px 0;
   margin: 0 auto;
-  /* display: flex;
-  flex-direction: column;
-  justify-content: flex-start; */
-}
-
-.footer-container {
-  padding-top: 60px;
-  padding-bottom: 60px;
 }
 
 .footer-logo {
@@ -353,12 +349,18 @@ span {
   color: #ffffff;
 }
 .footer-address {
+  margin-top: 20px;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: #ffffff;
 }
+
+.footer-list-box {
+  margin: 0;
+}
+
 .footer-mailto {
   font-weight: 400;
   font-size: 14px;
