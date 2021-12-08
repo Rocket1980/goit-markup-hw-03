@@ -11,13 +11,6 @@ body {
   font-family: var(--secondary-font);
 }
 
-h1,
-h2,
-h3,
-h4 {
-  margin: 0;
-}
-
 a {
   text-decoration: none;
 }
@@ -38,7 +31,7 @@ address {
 /* ========== header ========== */
 
 .container {
-  width: 1170px;
+  width: 1200px;
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
@@ -105,10 +98,6 @@ span {
 }
 
 .connection-mailto {
-  /* display: block;
-  padding-top: 32px;
-  padding-bottom: 32px; */
-
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -117,10 +106,6 @@ span {
 }
 
 .connection-tel {
-  /* display: block;
-  padding-top: 32px;
-  padding-bottom: 32px; */
-
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -148,13 +133,9 @@ span {
   margin: 0 auto;
 }
 
-/* .cap-container {
-  padding: 200px 0;
-  width: 1200px;
-} */
-
 .cap-heading {
-  padding-bottom: 30px;
+  margin-top: 0;
+  margin-bottom: 30px;
 
   font-weight: 900;
   font-size: 44px;
@@ -203,13 +184,13 @@ span {
 }
 
 .peculiarity-list {
-  /* display: flex;
-  flex-wrap: wrap; */
   width: 270px;
   height: 101px;
 }
 
 .peculiarity-heading {
+  margin-top: 0;
+  margin-bottom: 10px;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -218,7 +199,7 @@ span {
   color: var(--text-primary);
 }
 .peculiarity-text {
-  /* margin-right: 30px; */
+  margin: 0;
 
   font-weight: 400;
   font-size: 14px;
@@ -233,6 +214,7 @@ span {
   width: 1200px;
   padding-top: 47px;
   padding-bottom: 84px;
+  margin: 0 auto;
 }
 
 .image {
@@ -273,7 +255,7 @@ span {
   padding-bottom: 86px;
 }
 
-.team-group-image .team-group {
+.team-group {
   display: flex;
   justify-content: center;
   margin: 0;
@@ -296,10 +278,12 @@ span {
 
 .team-li {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 .team-box-heading {
+  margin-top: 0;
   margin-bottom: 50px;
 
   font-weight: 700;
@@ -315,6 +299,9 @@ span {
   padding-bottom: 30px;
 }
 .team-heading {
+  margin-top: 0;
+  margin-bottom: 10px;
+
   font-weight: 500;
   font-size: 16px;
   line-height: 1.2;
@@ -322,6 +309,8 @@ span {
   color: var(--text-primary);
 }
 .team-position {
+  margin: 0;
+
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -350,6 +339,7 @@ span {
 }
 .footer-address {
   margin-top: 20px;
+  margin-bottom: 9px;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -359,6 +349,10 @@ span {
 
 .footer-list-box {
   margin: 0;
+}
+
+.footer-list {
+  margin-bottom: 9px;
 }
 
 .footer-mailto {
