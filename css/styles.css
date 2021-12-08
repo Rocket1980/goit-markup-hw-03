@@ -127,7 +127,6 @@ span {
 
 .cap {
   background-color: #2f303a;
-
   height: 600px;
   padding: 200px 0;
   margin: 0 auto;
@@ -167,8 +166,6 @@ span {
 }
 
 .peculiarity {
-  width: 1200px;
-  margin: 0 auto;
   padding-top: 94px;
   padding-bottom: 47px;
 }
@@ -211,10 +208,8 @@ span {
 /* ========== classes ========== */
 
 .classes-box {
-  width: 1200px;
   padding-top: 47px;
   padding-bottom: 84px;
-  margin: 0 auto;
 }
 
 .image {
@@ -250,7 +245,6 @@ span {
 /* ========== team ========== */
 
 .team-box {
-  width: 1200px;
   padding-top: 102px;
   padding-bottom: 86px;
 }
@@ -280,6 +274,8 @@ span {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .team-box-heading {
@@ -296,7 +292,6 @@ span {
 .team-image {
   width: 270px;
   height: 260px;
-  padding-bottom: 30px;
 }
 .team-heading {
   margin-top: 0;
@@ -323,7 +318,6 @@ span {
 
 .footer {
   background-color: #2f303a;
-  height: 252px;
   padding: 60px 0;
   margin: 0 auto;
 }
